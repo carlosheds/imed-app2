@@ -1,4 +1,4 @@
-package com.br.imed_app2
+package com.br.imed_app2.ui
 
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
@@ -9,6 +9,7 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
+import com.br.imed_app2.R
 import com.br.imed_app2.databinding.ActivityMainBinding
 import com.br.imed_app2.model.Drug
 

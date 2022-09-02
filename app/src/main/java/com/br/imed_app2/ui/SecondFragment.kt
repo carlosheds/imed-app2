@@ -1,4 +1,4 @@
-package com.br.imed_app2
+package com.br.imed_app2.ui
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
+import com.br.imed_app2.R
 import com.br.imed_app2.databinding.FragmentSecondBinding
 
 /**
