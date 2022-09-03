@@ -7,9 +7,9 @@
 
     <fragment
         android:id="@+id/FirstFragment"
-        android:name="com.br.imed_app2.ui.fragments.FirstFragment"
+        android:name="com.br.imed_app2.ui.fragments.DrugListFragment"
         android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first">
+        tools:layout="@layout/fragment_drug_list">
 
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"

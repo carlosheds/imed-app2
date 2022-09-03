@@ -12,7 +12,7 @@ import com.br.imed_app2.databinding.FragmentFirstBinding
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.
  */
-class FirstFragment : Fragment() {
+class DrugListFragment : Fragment() {
 
     private var _binding: FragmentFirstBinding? = null
 
