@@ -1,4 +1,4 @@
-package com.br.imed_app2.ui
+package com.br.imed_app2.ui.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
