@@ -17,8 +17,6 @@ class DrugListFragment : Fragment() {
 
     private val drugList = arrayListOf<Drug>()
 
-    // This property is only valid between onCreateView and
-    // onDestroyView.
     private val adapter by lazy { DrugListAdapter() }
 
     override fun onCreateView(
@@ -26,7 +24,7 @@ class DrugListFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         loadDrugMockList()
-        //do not forget to SEND THE LIST to the adapter!
+        //set loaded Drug List to adapter
         adapter.submitList(drugList)
 
         _binding = FragmentDrugListBinding.inflate(inflater, container, false)
