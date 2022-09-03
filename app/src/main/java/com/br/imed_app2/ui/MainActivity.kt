@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
 
-    private val drugList = arrayListOf<Drug>()
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -36,15 +36,6 @@ class MainActivity : AppCompatActivity() {
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
-
-        loadDrugMockList()
-
-    }
-
-    private fun loadDrugMockList() {
-            drugList.add(0,Drug(0, "Unak", "1 capsula", "20:00", "24:00"))
-            drugList.add(0,Drug(0, "Glifage", "1 capsula", "20:00", "24:00"))
-            drugList.add(0,Drug(0, "Indapen", "1 capsula", "10:00", "48:00"))
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
